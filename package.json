@@ -1,0 +1,19 @@
+{
+  "name": "HisEmitter",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Starter Kit",
+  "repository": "",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "start": "clear\nnode his-emitter.js"
+  },
+  "dependencies": {
+  	"log4js": "^0.6.32",
+  	"thunk-redis": "1.5.5",
+    "redis": "^2.3.0",
+    "async" : "^1.5.2"
+  }
+}
